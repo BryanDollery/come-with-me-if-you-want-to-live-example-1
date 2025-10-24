@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+
+title XAPI Components
+
+component [auth] as auth
+component [customer] as customer
+
+@enduml

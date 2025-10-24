@@ -1,0 +1,20 @@
+@startuml
+
+top to bottom direction 
+
+title System Components
+
+component [papi] as papi
+note right of papi : @./papi/spec/models/components.puml
+component [sapi] as sapi
+note right of sapi : @./sapi/spec/models/components.puml
+component [ui] as ui
+note left of ui : @./ui/spec/models/components.puml
+component [xapi] as xapi
+note right of xapi : @./xapi/spec/models/components.puml
+
+ui --> xapi
+xapi --> papi
+papi --> sapi
+
+@enduml

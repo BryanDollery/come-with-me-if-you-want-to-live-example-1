@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+
+title XAPI Customer Components
+
+' Customer external API components would be defined here
+' Currently no subdirectories identified
+
+@enduml

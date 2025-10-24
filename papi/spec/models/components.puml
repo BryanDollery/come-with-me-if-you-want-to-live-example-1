@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+
+title PAPI Components
+
+component [auth] as auth
+component [customer] as customer
+
+@enduml

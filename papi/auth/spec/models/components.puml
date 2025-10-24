@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+
+title PAPI Auth Components
+
+' Auth service components would be defined here
+' Currently no subdirectories identified
+
+@enduml

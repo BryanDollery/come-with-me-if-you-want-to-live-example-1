@@ -1,0 +1,9 @@
+@startuml
+!theme plain
+
+title SAPI Customer DB Components
+
+' Customer database service components would be defined here
+' Currently no subdirectories identified
+
+@enduml

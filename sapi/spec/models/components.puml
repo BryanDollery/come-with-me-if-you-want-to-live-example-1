@@ -1,0 +1,8 @@
+@startuml
+!theme plain
+
+title SAPI Components
+
+component [customer-db] as customer_db
+
+@enduml

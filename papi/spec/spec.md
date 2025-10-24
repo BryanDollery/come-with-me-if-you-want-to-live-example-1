@@ -1,3 +1,12 @@
-# Process API (PAPI) Specifications
+---
+required: when working on papi
+---
 
-<!-- Specifications for the Process API layer - business logic and orchestration -->
+# Overview
+
+The Process API implements business processes/workflows for the platform.
+
+# Components
+
+- auth: authentication and authorization service
+- customer: customer management service

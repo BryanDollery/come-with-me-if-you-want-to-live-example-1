@@ -1,0 +1,43 @@
+# Machine-readable spec index for the repository. Agents MUST parse and follow this order before making edits.
+# Fields:
+# - id: numeric string or integer
+# - path: relative path to the spec file
+# - title: short title
+# - order: read order (0 = highest priority)
+# - required: whether reading is mandatory
+# - summary: one-line summary of the spec's purpose
+specs:
+  - id: 00
+    path: "spec.md"
+    title: "Top-level Specification"
+    order: 0
+    required: true
+    summary: "High-level project intent, policies and global constraints. Read first."
+
+  - id: 01
+    path: "architecture.md"
+    title: "Architecture"
+    order: 1
+    required: true
+    summary: "System architecture, components and their responsibilities. Read after 00."
+
+  - id: 02
+    path: "coding-standards.md"
+    title: "Coding Standards"
+    order: 2
+    required: true
+    summary: "Language, style, and commit conventions. Read after 01."
+
+  - id: 03
+    path: "processes.md"
+    title: "Processes"
+    order: 3
+    required: true
+    summary: "Development and review processes. Read after 02."
+
+  - id: 04
+    path: "tasks.md"
+    title: "Tasks"
+    order: 4
+    required: true
+    summary: "Ordered project task list. Read after 03."

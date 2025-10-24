@@ -1,9 +1,7 @@
 @startuml
-!theme plain
 
 title PAPI Customer Components
 
 ' Customer service components would be defined here
-' Currently no subdirectories identified
 
 @enduml

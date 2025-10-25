@@ -1,8 +1,8 @@
 ---
-spec_order: 4
+spec_order: 5 of 5
 required: true
 preceded_by:
-  - @spec/03 - Processes.md
+  - @spec/04 - Processes.md
 references:
   - @specification/spec-index.yaml
   - @specification/workflow.yaml

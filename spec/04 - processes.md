@@ -1,5 +1,5 @@
 ---
-spec_order: 3 of 4
+spec_order: 4 of 5
 required: true
 preceded_by:
  - @spec/03 - coding-standards.md

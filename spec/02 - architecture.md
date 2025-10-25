@@ -1,5 +1,5 @@
 ---
-spec_order: 2 of 4
+spec_order: 2 of 5
 required: true
 preceded_by:
  - @spec/01 - spec.md

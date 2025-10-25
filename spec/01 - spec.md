@@ -1,5 +1,5 @@
 ---
-spec_order: 1 of 4
+spec_order: 1 of 5
 required: true
 followed_by:
  - @spec/02 - architecture.md

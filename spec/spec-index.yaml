@@ -7,37 +7,37 @@
 # - required: whether reading is mandatory
 # - summary: one-line summary of the spec's purpose
 specs:
-  - id: 00
-    path: "spec.md"
+  - id: 000
+    path: "01 - spec.md"
     title: "Top-level Specification"
     order: 0
     required: true
     summary: "High-level project intent, policies and global constraints. Read first."
 
-  - id: 01
-    path: "architecture.md"
+  - id: 001
+    path: "02 - architecture.md"
     title: "Architecture"
     order: 1
     required: true
-    summary: "System architecture, components and their responsibilities. Read after 00."
+    summary: "System architecture, components and their responsibilities. Read after 000."
 
-  - id: 02
-    path: "coding-standards.md"
+  - id: 002
+    path: "03 - coding-standards.md"
     title: "Coding Standards"
     order: 2
     required: true
-    summary: "Language, style, and commit conventions. Read after 01."
+    summary: "Language, style, and commit conventions. Read after 001."
 
-  - id: 03
-    path: "processes.md"
+  - id: 003
+    path: "04 - processes.md"
     title: "Processes"
     order: 3
     required: true
-    summary: "Development and review processes. Read after 02."
+    summary: "Development and review processes. Read after 002."
 
-  - id: 04
-    path: "tasks.md"
+  - id: 004
+    path: "05 - tasks.md"
     title: "Tasks"
     order: 4
     required: true
-    summary: "Ordered project task list. Read after 03."
+    summary: "Ordered project task list. Read after 003."
